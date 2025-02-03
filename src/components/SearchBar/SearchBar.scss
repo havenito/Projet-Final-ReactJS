@@ -60,7 +60,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
-    margin-top: 4rem; // Ajouter un espace en haut
+    margin-top: 4rem; 
 
     @media (min-width: 768px) {
       grid-template-columns: repeat(2, 1fr);
