@@ -5,7 +5,6 @@ import { AuthProvider } from "./auth/AuthProvider";
 export default function App() {
   return (
     <>
-      <div className="image-background"></div>
       <AuthProvider>
           <Router />
       </AuthProvider>
