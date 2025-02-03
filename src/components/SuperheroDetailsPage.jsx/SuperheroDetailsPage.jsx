@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router"; // Récupérer le paramètre 'id' de l'URL
-import { Comment } from "../Comments/Comments"; // Importer le composant Comment
-import "./SuperheroDetails.scss";
+import { useParams } from "react-router"; 
+import { Comment } from "../Comments/Comments"; 
+import "./SuperHeroDetails.scss";
 
 export default function SuperheroDetailsPage() {
-  const { id } = useParams(); // Récupère l'ID du super-héros depuis l'URL
+  const { id } = useParams(); 
   const [superheroDetails, setSuperheroDetails] = useState(null);
 
   useEffect(() => {
