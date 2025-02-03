@@ -1,7 +1,7 @@
 import "./Header.scss";
 import { Link, useNavigate } from "react-router";
 import { useAuth } from "../../auth/AuthProvider";
-import logo from "../../../public/logo.png"; // Assurez-vous que le chemin vers le logo est correct
+import logo from "../../../public/logo.png"; 
 
 export default function Header() {
   const { user, logout } = useAuth();

@@ -12,7 +12,7 @@ export default function FetchSuperHero() {
 
   return (
     <FetchApi
-      url="https://corsproxy.io/https://www.superheroapi.com/api.php/d8a6fd25123706b7feac3255d13cc3b6/search/a"  // Utilisation du chemin relatif pour contourner le CORS
+      url="https://corsproxy.io/https://www.superheroapi.com/api.php/d8a6fd25123706b7feac3255d13cc3b6/search/a"  
     >
       {(data) => (
         <div className="superhero-container">
