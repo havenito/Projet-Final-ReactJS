@@ -1,0 +1,100 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0a0a0a; // Noir profond
+    padding: 2rem;
+  
+    .confirmation {
+      text-align: center;
+      background-color: #1c1c1c; // Gris foncé
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      max-width: 500px;
+      margin: 0 auto;
+  
+      h2 {
+        font-size: 2rem;
+        color: #f0c75e; // Or
+        margin-bottom: 1rem;
+      }
+  
+      p {
+        color: #cccccc; // Gris clair
+      }
+    }
+  
+    .contact-form {
+      width: 100%;
+      max-width: 500px;
+      background-color: #1c1c1c; // Gris foncé
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  
+      h2 {
+        font-size: 2rem;
+        color: #ffffff; // Blanc
+        text-align: center;
+        margin-bottom: 1.5rem;
+      }
+  
+      .error {
+        color: #e74c3c; // Rouge
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+  
+      .form-group {
+        margin-bottom: 1.5rem;
+  
+        label {
+          display: block;
+          font-size: 1rem;
+          color: #ffffff; // Blanc
+          margin-bottom: 0.5rem;
+        }
+  
+        input,
+        textarea {
+          width: 100%;
+          padding: 0.75rem;
+          border: none;
+          border-radius: 5px;
+          background-color: #333; // Gris foncé
+          color: #ffffff; // Blanc
+          font-size: 1rem;
+          font-family: 'Roboto', sans-serif;
+  
+          &:focus {
+            outline: none;
+            box-shadow: 0 0 0 2px #f0c75e; // Or
+          }
+        }
+  
+        textarea {
+          resize: vertical;
+          height: 150px;
+        }
+      }
+  
+      button {
+        width: 100%;
+        padding: 0.75rem;
+        border: none;
+        border-radius: 5px;
+        background-color: #f0c75e; // Or
+        color: #0a0a0a; // Noir profond
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+  
+        &:hover {
+          background-color: #e5b645; // Or foncé
+        }
+      }
+    }
+  }

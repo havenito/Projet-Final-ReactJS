@@ -1,0 +1,68 @@
+.superhero-details-container {
+    padding: 2rem;
+    background-color: #0a0a0a; // Noir profond
+    color: #ffffff; // Blanc
+    text-align: center;
+  
+    .card {
+      background-color: #1c1c1c; // Gris foncé
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      margin: 0 auto;
+      max-width: 800px;
+  
+      .text-2xl {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        font-family: 'Roboto', sans-serif;
+      }
+  
+      .image-container {
+        margin-bottom: 2rem;
+  
+        img {
+          width: 200px;
+          height: 200px;
+          border-radius: 50%;
+          object-fit: cover;
+          margin-bottom: 1rem;
+        }
+  
+        .title {
+          font-size: 1.5rem;
+          font-weight: bold;
+          margin-bottom: 1rem;
+        }
+  
+        .blurb {
+          font-size: 1rem;
+          color: #cccccc; // Gris clair
+        }
+      }
+  
+      .details-section {
+        margin-bottom: 2rem;
+  
+        .section-title {
+          font-size: 1.5rem;
+          font-weight: bold;
+          margin-bottom: 1rem;
+        }
+  
+        .list {
+          list-style: none;
+          padding: 0;
+  
+          li {
+            margin-bottom: 0.5rem;
+          }
+        }
+      }
+  
+      .comments-section {
+        margin-top: 2rem;
+      }
+    }
+  }

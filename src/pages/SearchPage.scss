@@ -1,0 +1,23 @@
+.search-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #0a0a0a; // Noir profond
+    color: #ffffff; // Blanc
+    min-height: 100vh;
+  
+    .search-page__title {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      font-family: 'Roboto', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  
+    .search-page__message {
+      font-size: 1.2rem;
+      color: #cccccc; // Gris clair
+      text-align: center;
+    }
+  }

@@ -1,0 +1,70 @@
+.header {
+    width: 100%; // Prendre toute la largeur de l'écran
+    background-color: #242424; // Noir profond
+    color: #ffffff; // Blanc
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  
+    .header__content {
+      width: 100%;
+      max-width: 1200px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 1rem;
+    }
+  
+    .header__logo {
+      font-size: 1.5rem;
+      font-family: 'Cinzel', serif;
+      text-decoration: none;
+      color: #ffffff;
+      transition: color 0.3s ease;
+  
+      &:hover {
+        color: #f0c75e; // Or
+      }
+
+      .header__logo-image {
+        width: 30px; // Ajustez la taille du logo selon vos besoins
+        height: auto;
+      }
+    }
+  
+    .header__nav {
+      display: flex;
+      align-items: center;
+  
+      .header__nav-link {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 1rem;
+        margin-left: 1rem;
+        transition: color 0.3s ease;
+  
+        &:hover {
+          color: #f0c75e; // Or
+        }
+      }
+  
+      .header__nav-button {
+        background-color: transparent;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        margin-left: 1rem;
+  
+        &:hover {
+          background-color: #ffffff;
+          color: #0a0a0a; // Noir profond
+        }
+      }
+    }
+  }

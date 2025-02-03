@@ -1,0 +1,59 @@
+.superhero-container {
+    padding: 2rem;
+    background-color: #0a0a0a; // Noir profond
+    color: #ffffff; // Blanc
+    text-align: center;
+  
+    .superhero-title {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      font-family: 'Roboto', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  
+    .superhero-gallery {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+  
+      @media (min-width: 768px) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+  
+      .superhero-item {
+        background-color: #1c1c1c; // Gris foncé
+        padding: 1rem;
+        border-radius: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+  
+        &:hover {
+          transform: scale(1.05);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+  
+        .superhero-link {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-decoration: none;
+          color: #ffffff; // Blanc
+  
+          .superhero-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+          }
+  
+          .superhero-name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+          }
+        }
+      }
+    }
+  }

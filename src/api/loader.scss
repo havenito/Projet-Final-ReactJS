@@ -1,0 +1,37 @@
+@import "../index.css";
+
+.container {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: var(--background-color); 
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  z-index: 9999; 
+}
+
+.loader {
+  width: 100px; 
+  height: 100px;
+  border: 10px solid var(--primary-color); 
+  border-top: 10px solid #fff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.footer-hidden {
+  display: none;
+}
